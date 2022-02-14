@@ -3,9 +3,9 @@
     <title>User Registration</title>
   </head>
   <body>
-    <form>
-      <p><label>Name      <input></label></p>
-      <p><label>Email     <input></label></p>
+    <form name="Reg">
+      <p><label for="userName">Name</label><input type="text" name="userName"></p>
+      <p><label for="userEmail">Email</label><input type="text" name="userEmail"></p>
       
       <label for="gender">Gender:    </label>
       <form id="gender" name="gender">
@@ -20,7 +20,7 @@
         <option value="3">Others</option>
       </select><br>
       
-      <p><label for="ad">How can you know the existence of our site?</label>
+      <p><label for="ad">How can you know the existence of our site?</label><nobr>
       <form id="ad" name="ad">
         <input type="checkbox" name="ad" value="Newspaper">Newspaper
         <input type="checkbox" name="ad" value="Magazine">Magazine
